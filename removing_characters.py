@@ -4,11 +4,15 @@
 # pseudocode
 
 # create a function for the words and length of the n to be remove
+def removing_letters (random_words, length):
 
 # print the word before removing characters
+    print ("The word is", random_words)
 
 # create a variable that will remove n characters from the word
+    remove = random_words [length:]
 
 # return the new word
+    return remove
 
 # print the word with remove characters
