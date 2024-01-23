@@ -16,3 +16,7 @@ def removing_letters (random_words, length):
     return remove
 
 # print the word with remove characters
+print ("Characters will now be remove from the word")
+
+print (removing_letters("Technology and Science", 5))
+print (removing_letters("Computer Engineering", 10))
